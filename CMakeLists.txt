@@ -27,8 +27,8 @@ add_subdirectory(build)
 #     RUNTIME DESTINATION "bin"
 # )
 
-# INSTALL(
-#     DIRECTORY ${CMAKE_SOURCE_DIR}/include/
-#     DESTINATION include
-#     FILES_MATCHING PATTERN "*.h*"
-# )
+INSTALL(
+    DIRECTORY ${CMAKE_SOURCE_DIR}/include/
+    DESTINATION include
+    FILES_MATCHING PATTERN "*.h*"
+)
